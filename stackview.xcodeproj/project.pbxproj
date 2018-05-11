@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1748FE0203430B7001B9213 /* C1.png in Resources */ = {isa = PBXBuildFile; fileRef = F1748FDF203430B7001B9213 /* C1.png */; };
+		F1748FE22034329E001B9213 /* C2.png in Resources */ = {isa = PBXBuildFile; fileRef = F1748FE12034329E001B9213 /* C2.png */; };
 		F17778BE2032F60600F94005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17778BD2032F60600F94005 /* AppDelegate.swift */; };
 		F17778C02032F60600F94005 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17778BF2032F60600F94005 /* ViewController.swift */; };
 		F17778C32032F60600F94005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17778C12032F60600F94005 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1748FDF203430B7001B9213 /* C1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C1.png; sourceTree = "<group>"; };
+		F1748FE12034329E001B9213 /* C2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C2.png; sourceTree = "<group>"; };
 		F17778BA2032F60600F94005 /* stackview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stackview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17778BD2032F60600F94005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F17778BF2032F60600F94005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +104,9 @@
 				F17778BD2032F60600F94005 /* AppDelegate.swift */,
 				F17778BF2032F60600F94005 /* ViewController.swift */,
 				F17778C12032F60600F94005 /* Main.storyboard */,
+				F1748FE12034329E001B9213 /* C2.png */,
 				F17778C42032F60600F94005 /* Assets.xcassets */,
+				F1748FDF203430B7001B9213 /* C1.png */,
 				F17778C62032F60600F94005 /* LaunchScreen.storyboard */,
 				F17778C92032F60600F94005 /* Info.plist */,
 			);
@@ -232,7 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1748FE22034329E001B9213 /* C2.png in Resources */,
 				F17778C82032F60600F94005 /* LaunchScreen.storyboard in Resources */,
+				F1748FE0203430B7001B9213 /* C1.png in Resources */,
 				F17778C52032F60600F94005 /* Assets.xcassets in Resources */,
 				F17778C32032F60600F94005 /* Main.storyboard in Resources */,
 			);
@@ -427,7 +435,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQS9CNTUX7;
 				INFOPLIST_FILE = stackview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.stackview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +451,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQS9CNTUX7;
 				INFOPLIST_FILE = stackview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.stackview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
